@@ -1,0 +1,51 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    background: #fdf0d5;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    font-family: Georgia, serif; 
+}
+
+canvas { 
+    border-radius: 16px; 
+    box-shadow: 0 0 80px rgba(100,200,255,0.25); 
+}
+#ui { 
+    margin-top: 14px; 
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+button { 
+    background: #003049; 
+    border: 1px solid rgba(255,255,255,0.2); 
+    color: rgba(255,255,255,1); 
+    padding: 12px 18px; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    font-size: 13px; 
+    transition: background 0.2s; 
+}
+
+button:hover { 
+    background: #002f49a4;
+}
+
+#sceneLabel { 
+    color: #003049; 
+    font-size: 22px; 
+    font-family: arial, sans-serif; 
+    padding: 12px; 
+    margin: 12px;
+}
