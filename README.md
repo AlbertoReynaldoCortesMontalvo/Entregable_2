@@ -1,6 +1,6 @@
 # Gotas y Raíces
 
-Animación 2D interactiva desarrollada con **p5.js** como Entregable 2 de la Maestría en Animación 2D.
+Animación 2D interactiva desarrollada con **p5.js** como Entregable 2 de la Materia diseño 2D
 
 ---
 
