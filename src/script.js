@@ -20,7 +20,7 @@ new p5(function(p) {
     "Escena 3 — El Riego",
     "Escena 4 — Crecimiento Rápido",
     "Escena 5 — La Floración",
-    "Escena 6 — Resolución"
+    "Escena 6 — Felicidad"
   ];
   const SCENE_DURATION = [200, 200, 200, 200, 200, 9999];
 
@@ -206,11 +206,11 @@ new p5(function(p) {
     if (flowerBloom > 0.7 && p.frameCount % 3 === 0)
       sparkles.push({x: W*0.5+p.random(-32,32), y: H-72-95+p.random(-22,5), life:25});
     drawSparkles();
-    drawSubtitle("La flor se abre · K3: Nubecita vuelve a su estado feliz");
+    drawSubtitle("La flor se abre · Nubecita vuelve a su estado feliz");
 
   }
 
-  // Escena de resolución
+  // Escena de felicidad
   function scena_resolucion() {
     drawSky(p.color(140,215,255), p.color(210,240,255));
     drawNubesFondo();
